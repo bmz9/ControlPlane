@@ -1,6 +1,3 @@
-ControlPlane (rueX)
-============
-
 Greetings.
 
 Per introduction, my name is rueX, and I'm a cool guy who found ControlPlane to his liking, and wanted to contribute. The branch "rueX" is where my contributions reside. Feel free to clone and make use of it, as you please.
