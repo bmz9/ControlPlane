@@ -12,5 +12,5 @@ Behind the scenes, ControlPlane would generate and update contexts, learning and
 
 The original repository for ControlPlane is here: <https://github.com/dustinrue/ControlPlane>.
 
-Cheers,
+Cheers,        
 rueX
