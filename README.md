@@ -1,30 +1,16 @@
-ControlPlane
-============
+Greetings.
 
-What is ControlPlane
---------------------
+Per introduction, my name is rueX, and I'm a cool guy who found ControlPlane to his liking, and wanted to contribute. The branch "rueX" is where my contributions reside. Feel free to clone and make use of it, as you please.
 
-ControlPlane, a fork of MarcoPolo, brings context and location sensitive awareness to OS X.  With ControlPlane you can intelligently reconfigure your Mac or perform any number of actions based on input from a wide variety of evidence sources including but not limited to available WiFi networks, current location, connected monitors, connected and nearby bluetooth devices, currently running apps and other configurable sources.  You will find a full feature list at <http://www.controlplaneapp.com/feature-list>.
+I'd like to take ControlPlane in the direction of an ANN (artificial neural network), with nearly no user-interface at all. The minimal UI would be a "learn this" button, which the user would press before performing some action or changing a setting somewhere.
 
-How ControlPlane Works
-----------------------
+An alternative UI would be via natural language input, of the sort: "When I connect my bluetooth headset, change the bitpool to the highest settings, maybe 80, and switch the audio output to the headset. But only do this when I'm at home." This could be typed, or spoken into osX's dictation.
 
-Using fuzzy logic, ControlPlane decides where you are and/or what you are doing (called a Context) using rules that you configure to then carry out any number of configured actions.
+A pre-configured "Common Actions" area would permit quick access to simpler, common items.
 
-An example of how to use ControlPlane may include disabling the screensaver password while at work but enabling it when away from work.  Another example would be to set your Adium status.
+Behind the scenes, ControlPlane would generate and update contexts, learning and incorporating subtleties of conditions and behaviour, as time goes on. An advanced UI could expose the weights and states of the ANN model, but this would not be essential, nor visible by default.
 
-How to Get ControlPlane
------------------------
+The original repository for ControlPlane is here: <https://github.com/dustinrue/ControlPlane>.
 
-You can download the most recent version of ControlPlane from <http://www.macupdate.com/app/mac/39644/controlplane>.  Once installed you will be automatically notified of any new updates that become available.
-
-Building ControlPlane from Source
----------------------------------
-
-ControlPlane is free, open source software hosted at <https://github.com/dustinrue/ControlPlane>.  Before you can build ControlPlane you will need the following:
-
-1. Xcode 4.4+.
-2. A git client if you don't wish to use Xcode itself, the command line tools for Xcode include the Git command line client.
-3. OS X version 10.8.
-
-If you wish to build ControlPlane yourself you can do so by cloning the ControlPlane code to your computer using Xcode or your preferred git client.  Once cloned, open the project file in Xcode and edit the Action.h file to enable or disable the building of the iChat action.
+Cheers,        
+rueX
